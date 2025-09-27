@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đăng Ký</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: 20px auto;
+      width: 500px;
+    }
+    th {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid black;
+      background-color: #f8f8f8;
+      font-size: 18px;
+    }
+    td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    input[type="text"],
+    input[type="password"],
+    textarea,
+    select {
+      width: 95%;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: none;
+      height: 60px;
+    }
+    .buttons {
+      text-align: center;
+      padding: 10px;
+    }
+    .buttons input {
+      margin: 0 10px;
+      padding: 6px 12px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <th colspan="2">ĐĂNG KÝ</th>
+      </tr>
+      <tr>
+        <td>Họ tên</td>
+        <td><input type="text" placeholder="Nhập họ tên"></td>
+      </tr>
+      <tr>
+        <td>Username</td>
+        <td><input type="text" placeholder="Nhập tên đăng nhập"></td>
+      </tr>
+      <tr>
+        <td>Mật khẩu</td>
+        <td><input type="password" placeholder="Mật khẩu"></td>
+      </tr>
+      <tr>
+        <td>Nhập lại Mật khẩu</td>
+        <td><input type="password" placeholder="Nhập lại Mật khẩu"></td>
+      </tr>
+      <tr>
+        <td>Giới tính</td>
+        <td>
+          <input type="radio" name="gender"> Nam
+          <input type="radio" name="gender"> Nữ
+          <input type="radio" name="gender"> Khác
+        </td>
+      </tr>
+      <tr>
+        <td>Ngày sinh</td>
+        <td>
+          <select>
+            <option>01</option><option>02</option><option>03</option>
+            <!-- Có thể thêm tiếp -->
+          </select>
+          <select>
+            <option>01</option><option>02</option><option>03</option>
+            <!-- Có thể thêm tiếp -->
+          </select>
+          <select>
+            <option>2001</option><option>2002</option><option>2003</option>
+            <!-- Có thể thêm tiếp -->
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td><textarea></textarea></td>
+      </tr>
+      <tr>
+        <td>Avatar</td>
+        <td><input type="file"></td>
+      </tr>
+      <tr>
+        <td>Sở thích</td>
+        <td>
+          <input type="checkbox"> Xem phim
+          <input type="checkbox"> Thể thao
+          <input type="checkbox"> Trò chơi
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="buttons">
+          <input type="reset" value="Reset">
+          <input type="submit" value="Ok">
+        </td>
+      </tr>
+    </table>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
